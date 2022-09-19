@@ -1,3 +1,5 @@
+A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz]
+
 ## Features
 
 - ⚡️ Next.js 12
