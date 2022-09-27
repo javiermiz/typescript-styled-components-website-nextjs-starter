@@ -1,11 +1,11 @@
-A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz]
+A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
 
 ## Features
 
 - ⚡️ Next.js 12
 - ⚛️ React 18
 - ⛑ TypeScript
-- 💅 Styled Components - For using CSS in JS
+- 💅 Styled Components - To use CSS in JS / single file components
 - 📏 ESLint — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
