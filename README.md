@@ -1,4 +1,6 @@
-A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
+A Next.js starter that includes all you need to build amazing Websites 🔥.
+
+Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
 
 ## Features
 

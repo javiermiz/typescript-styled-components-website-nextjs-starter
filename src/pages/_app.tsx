@@ -7,6 +7,8 @@ import Footer from '@/components/footer';
 /**
  * Custom 'App' component.
  *
+ * _Remove Header and Footer components if you don't want them globally in all your application_
+ *
  * More info: https://nextjs.org/docs/advanced-features/custom-app
  */
 const MyApp = ({ Component, pageProps }: AppProps) => {
