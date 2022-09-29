@@ -5,7 +5,7 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 
 /**
- * Custom 'App' component.
+ * Modified 'App' file to share the same Header and Footer components in the entire application/website.
  *
  * _Remove Header and Footer components if you don't want them globally in all your application_
  *
