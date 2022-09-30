@@ -13,6 +13,7 @@ specifiers:
   eslint-config-next: 12.3.0
   eslint-config-prettier: 8.5.0
   eslint-import-resolver-typescript: 3.5.1
+  eslint-plugin-better-styled-components: 1.1.2
   eslint-plugin-import: 2.26.0
   eslint-plugin-prettier: 4.2.1
   eslint-webpack-plugin: 3.2.0
@@ -46,6 +47,7 @@ devDependencies:
   eslint-config-next: 12.3.0_irgkl5vooow2ydyo6aokmferha
   eslint-config-prettier: 8.5.0_eslint@8.23.1
   eslint-import-resolver-typescript: 3.5.1_hdzsmr7kawaomymueo2tso6fjq
+  eslint-plugin-better-styled-components: 1.1.2
   eslint-plugin-import: 2.26.0_bkwixupcywvgmrzjbgj7n47r6y
   eslint-plugin-prettier: 4.2.1_cabrci5exjdaojcvd6xoxgeowu
   eslint-webpack-plugin: 3.2.0_cnsurwdbw57xgwxuf5k544xt5e
@@ -1797,6 +1799,14 @@ packages:
       - supports-color
     dev: true
 
+  /eslint-plugin-better-styled-components/1.1.2:
+    resolution: {integrity: sha512-pGLIv8Z05xnmMyDyLWV65KQs7HU+FN403Tqb5xv3BZvw5kjC3K18/aYm7mcRpLLPse5/lwhX8ieGQKflPgr0xQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      postcss: 7.0.39
+      requireindex: 1.1.0
+    dev: true
+
   /eslint-plugin-import/2.26.0_ablb3uaum6qywgmkr7jjhbmzda:
     resolution: {integrity: sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA==}
     engines: {node: '>=4'}
@@ -3267,6 +3277,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /picocolors/0.2.1:
+    resolution: {integrity: sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==}
+    dev: true
+
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
 
@@ -3283,6 +3297,14 @@ packages:
   /postcss-value-parser/4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: false
+
+  /postcss/7.0.39:
+    resolution: {integrity: sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==}
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      picocolors: 0.2.1
+      source-map: 0.6.1
+    dev: true
 
   /postcss/8.4.14:
     resolution: {integrity: sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==}
@@ -3426,6 +3448,11 @@ packages:
   /require-from-string/2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /requireindex/1.1.0:
+    resolution: {integrity: sha512-LBnkqsDE7BZKvqylbmn7lTIVdpx4K/QCduRATpO5R+wtPmky/a8pN1bO2D6wXppn1497AJF9mNjqAXr6bdl9jg==}
+    engines: {node: '>=0.10.5'}
     dev: true
 
   /resolve-from/4.0.0:
