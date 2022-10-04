@@ -18,6 +18,19 @@ Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescr
 - ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `@` prefix
 
+## Quick Start
+
+The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
+
+```
+# yarn
+yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+# npm
+npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+# pnpm
+pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+```
+
 ## Development
 
 To start the project locally, run:
