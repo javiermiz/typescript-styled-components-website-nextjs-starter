@@ -24,11 +24,11 @@ The best way to start with this template is using [Create Next App](https://next
 
 ```
 # yarn
-yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+yarn create next-app -e https://github.com/javiermiz/typescript-styled-components-website-nextjs-starter
 # npm
-npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+npx create-next-app -e https://github.com/javiermiz/typescript-styled-components-website-nextjs-starter
 # pnpm
-pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+pnpm create next-app -e https://github.com/javiermiz/typescript-styled-components-website-nextjs-starter
 ```
 
 ## Development
